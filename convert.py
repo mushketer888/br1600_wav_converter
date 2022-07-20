@@ -13,7 +13,7 @@ for file in os.listdir():
             out_f.setframerate(44100)
             out_f.writeframesraw(data)
             out_f.close()
-            print('Succesfully created WAV file %s' % file)
+            print('Succesfully created WAV file %s' % new_filename)
 
-print('Press enter to exit...')
+print('Press Enter to exit...')
 input()
